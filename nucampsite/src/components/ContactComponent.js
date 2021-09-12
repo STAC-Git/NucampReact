@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Breadcrumb, BreadcrumbItem, Button, Label, Input, Col, Row } from 'reactstrap' ;
+import { Breadcrumb, BreadcrumbItem, Button, Label, Col, Row } from 'reactstrap' ;
 import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Link } from'react-router-dom';
 
@@ -30,8 +30,7 @@ class Contact extends Component {
             }
         };
       
-            this.handleSubmit = this.handleSubmit.bind(this);    
-        
+            this.handleSubmit = this.handleSubmit.bind(this);      
         }
 
         handleSubmit(values) {
